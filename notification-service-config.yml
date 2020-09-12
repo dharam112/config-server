@@ -37,7 +37,7 @@ messages:
   welcomesubject: 'Welcome Email Message'
   registeremailmsg: 'Register email successfully send.'
   forgotemailmsg: 'Forgot email successfully send.'
-  welcomemailmsg: 'dharmendra singh and iincore Welcome email successfully send.'
+  welcomemailmsg: 'dharmendra singh and iincore software system Welcome email successfully send.'
   verificationEmail: '<p> Dear %s</p>
                 <p>To verify your account, simply click on the following link:</p>
                 <p><a href="http://%s:%s/v1/verifyUser/email/%s">Email Verification</a></p><p>Sincerely,</p>
