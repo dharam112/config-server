@@ -1,0 +1,44 @@
+server:
+  port: 8082
+
+mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rectifyiincore@gmail.com
+    password: '@123#123#Rectify'
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+
+twilio:
+  accountId : 'ACa4a23fd234fb7b0aacec90797e80b782'
+  authId: '743c63a72ac5bb7bd5fb40707c13072d'
+  mobileNumber: '+12029723972'
+
+
+messages:
+  emailexception: 'Email Exception received.'
+  emailOTPSubject: 'FavoRent : Sign Up Verification'
+  otpmsg: 'Your favoRent One Time Password (otp) is %s Don not share it with anyone. We do not call/email you to verify OTP'
+  emailsendingexecption: 'mailing exception sending an email to {0}'
+  forgotpasswordemail: '<p> Dear %s</p>
+                        <p>Please find the link to reset your password.</p>
+                        <p><a href="http://%s:%s/resetpassword/%s">Reset Password</a></p><p>Sincerely,</p><p>FavoRent</p>'
+  forgotpasswordemailsubject: 'Forgot Password Notification'
+  forgotpasswordresponsemsg: 'Reset Password link has been send to your registered email'
+  bademailexecptionmsg: 'An error occurred when sending an email to user'
+  welcome: '<p<Dear %s</p>,
+            <p>We are happy to have you on favoRent portal. Happy Renting</p>
+            <p> Regards,</p>
+            <p>favoRent Team</p>'
+  welcomesubject: 'Welcome Email Message'
+  registeremailmsg: 'Register email successfully send.'
+  forgotemailmsg: 'Forgot email successfully send.'
+  welcomemailmsg: 'dharmendra singh Welcome email successfully send.'
+  verificationEmail: '<p> Dear %s</p>
+                <p>To verify your account, simply click on the following link:</p>
+                <p><a href="http://%s:%s/v1/verifyUser/email/%s">Email Verification</a></p><p>Sincerely,</p>
+                <p>Rectify</p>'
